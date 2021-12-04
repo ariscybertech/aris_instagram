@@ -1,3 +1,4 @@
+import 'package:aris_instagram/util/explore_grid.dart';
 import 'package:flutter/material.dart';
 
 class UserSearch extends StatelessWidget {
@@ -9,17 +10,31 @@ class UserSearch extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: Row(
-          children: [
-            Icon(Icons.search),
-            Container(
-              color: Colors.grey[500],
-              child: Text('Search'),
-            )
-          ],
+        title: ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: Container(
+            padding: EdgeInsets.all(8),
+            color: Colors.grey[300],
+            child: Row(
+              children: [
+                Icon(
+                  Icons.search,
+                  color: Colors.grey[500],
+                ),
+                Container(
+                  child: Text(
+                    'Search',
+                    style: TextStyle(
+                      color: Colors.grey[500],
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
         ),
       ),
-      body: Center(child: Text('SEARCH')),
+      body: ExploreGrid(),
     );
   }
 }
