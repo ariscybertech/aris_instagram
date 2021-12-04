@@ -48,10 +48,21 @@ class UserHome extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 itemCount: people.length,
                 itemBuilder: (context, index) {
-                  return BubbleStoies(text: people[index]);
+                  return BubbleStories(text: people[index]);
                 }),
           ),
-          UserPosts(name: 'kotathefriend'),
+
+          //POSTS
+          Expanded(
+            child: ListView.builder(
+              itemCount: people.length,
+              itemBuilder: (context, index) {
+                return UserPosts(
+                  name: people[index],
+                );
+              },
+            ),
+          ),
         ],
       ),
     );

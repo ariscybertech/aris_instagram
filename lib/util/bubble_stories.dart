@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class BubbleStoies extends StatelessWidget {
+class BubbleStories extends StatelessWidget {
   final text;
 
-  const BubbleStoies({Key key, this.text}) : super(key: key);
+  const BubbleStories({Key key, this.text}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(

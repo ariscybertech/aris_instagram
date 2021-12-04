@@ -10,7 +10,7 @@ class UserPosts extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Column(
       children: [
         Padding(
           padding: const EdgeInsets.all(16.0),
@@ -87,16 +87,19 @@ class UserPosts extends StatelessWidget {
 
         // caption
         Padding(
-          padding: const EdgeInsets.only(left: 16, top: 8),
-          child: RichText(
-            text: TextSpan(
-              children: [
-                TextSpan(text: 'kotatherfriend'),
-                TextSpan(text: 'i turn the dirty they throving')
-              ]
-            ),
-          )
-        ),
+            padding: const EdgeInsets.only(left: 16, top: 8),
+            child: RichText(
+              text: TextSpan(
+                style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+                children: [
+                TextSpan(
+                    text: name,
+                    style: TextStyle(fontWeight: FontWeight.bold)),
+                TextSpan(
+                    text:
+                        'i turn the dirty they throving into riches til in filthy'),
+              ]),
+            )),
       ],
     );
   }
