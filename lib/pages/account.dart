@@ -103,18 +103,48 @@ class UserAccount extends StatelessWidget {
             ),
           ),
 
-          Row(
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(5),
-                child: Container(
-                  padding: EdgeInsets.all(8),
-                  child: Text('Edit profile'),
-                  decoration:
-                      BoxDecoration(border: Border.all(color: Colors.grey)),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: Expanded(
+                    child: Container(
+                      padding: EdgeInsets.all(8),
+                      child: Text('Edit profile'),
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(5)),
+                    ),
+                  ),
                 ),
-              )
-            ],
+                Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: Expanded(
+                    child: Container(
+                      padding: EdgeInsets.all(8),
+                      child: Text('Ad Tools'),
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(5)),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: Expanded(
+                    child: Container(
+                      padding: EdgeInsets.all(8),
+                      child: Text('Insights'),
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(5)),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           )
         ],
       ),
