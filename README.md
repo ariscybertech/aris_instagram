@@ -1,5 +1,5 @@
 # Hi there, I'm Behruz Hurramov
-![MobileScreenshot](screenshots/screenrecord.gif)
+![MobileScreenshot](screenshots/screenshot.gif)
 
 ## Getting Started
 
