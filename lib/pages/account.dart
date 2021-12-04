@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 class UserAccount extends StatelessWidget {
   const UserAccount({Key key}) : super(key: key);
@@ -77,15 +78,43 @@ class UserAccount extends StatelessWidget {
             ),
           ),
           // Name and bio
-          Text(
-            'koko',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
-          Text(
-            'I create apps & games',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'koko',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 5),
+                  child: Text(
+                    'I create apps & games',
+                  ),
+                ),
+                Text(
+                  'm.youtube.com/ariscybertech/',
+                  style: TextStyle(
+                    color: Colors.blue,
+                  ),
+                ),
+              ],
             ),
+          ),
+
+          Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(5),
+                child: Container(
+                  padding: EdgeInsets.all(8),
+                  child: Text('Edit profile'),
+                  decoration:
+                      BoxDecoration(border: Border.all(color: Colors.grey)),
+                ),
+              )
+            ],
           )
         ],
       ),
