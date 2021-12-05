@@ -1,4 +1,4 @@
-import 'package:aris_instagram/homepage.dart';
+import 'package:aris_instagram/aris/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,8 +1,8 @@
-import 'package:aris_instagram/util/account_tab/account_tab1.dart';
-import 'package:aris_instagram/util/account_tab/account_tab2.dart';
-import 'package:aris_instagram/util/account_tab/account_tab3.dart';
-import 'package:aris_instagram/util/account_tab/account_tab4.dart';
-import 'package:aris_instagram/util/bubble_stories.dart';
+import 'package:aris_instagram/aris/util/account_tab/account_tab1.dart';
+import 'package:aris_instagram/aris/util/account_tab/account_tab2.dart';
+import 'package:aris_instagram/aris/util/account_tab/account_tab3.dart';
+import 'package:aris_instagram/aris/util/account_tab/account_tab4.dart';
+import 'package:aris_instagram/aris/util/bubble_stories.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';

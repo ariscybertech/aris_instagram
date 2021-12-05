@@ -1,8 +1,8 @@
-import 'package:aris_instagram/pages/account.dart';
-import 'package:aris_instagram/pages/home.dart';
-import 'package:aris_instagram/pages/reels.dart';
-import 'package:aris_instagram/pages/search.dart';
-import 'package:aris_instagram/pages/shop.dart';
+import 'package:aris_instagram/aris/pages/account.dart';
+import 'package:aris_instagram/aris/pages/home.dart';
+import 'package:aris_instagram/aris/pages/reels.dart';
+import 'package:aris_instagram/aris/pages/search.dart';
+import 'package:aris_instagram/aris/pages/shop.dart';
 import 'package:flutter/material.dart';
 
 class Aris extends StatefulWidget {

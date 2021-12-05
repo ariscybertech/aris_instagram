@@ -1,4 +1,4 @@
-import 'package:aris_instagram/util/explore_grid.dart';
+import 'package:aris_instagram/aris/util/explore_grid.dart';
 import 'package:flutter/material.dart';
 
 class UserSearch extends StatelessWidget {

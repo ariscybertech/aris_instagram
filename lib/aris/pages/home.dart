@@ -1,5 +1,5 @@
-import 'package:aris_instagram/util/bubble_stories.dart';
-import 'package:aris_instagram/util/user_posts.dart';
+import 'package:aris_instagram/aris/util/bubble_stories.dart';
+import 'package:aris_instagram/aris/util/user_posts.dart';
 import 'package:flutter/material.dart';
 
 class UserHome extends StatelessWidget {

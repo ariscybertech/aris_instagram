@@ -1,4 +1,4 @@
-import 'package:aris_instagram/util/shop_grid.dart';
+import 'package:aris_instagram/aris/util/shop_grid.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
