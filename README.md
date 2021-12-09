@@ -9,6 +9,7 @@ $ flutter packages get
 ```
 Run the application and enjoy :tada::relaxed:
 
+<a href="https://www.buymeacoffee.com/ariscybertech"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60"></a>
 Instagram allows users to edit and upload photos and short videos through a mobile app. Users can add a caption to each of their posts and use hashtags and location-based geotags to index these posts and make them searchable by other users within the app. Each post by a user appears on their followers' Instagram feeds and can also be viewed by the public when tagged using hashtags or geotags. Users also have the option of making their profile private so that only their followers can view their posts.
 
 As with other social networking platforms, Instagram users can like, comment on and bookmark others' posts, as well as send private messages to their friends via the Instagram Direct feature. Photos can be shared on one or several other social media sites -- including Twitter, Facebook and Tumblr -- with a single click.
