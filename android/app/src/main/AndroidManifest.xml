@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aris_instagram">
+    package="com.aristech.aris_instagram">
    <application
-        android:label="aris_instagram"
+        android:label="Arisogram"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
