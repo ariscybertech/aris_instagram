@@ -1,10 +1,11 @@
-import 'package:aris_instagram/aris/util/shop_grid.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
-class UserShop extends StatelessWidget {
-  const UserShop({Key key}) : super(key: key);
+class ActivityPage extends StatefulWidget {
+  @override
+  _ActivityPageState createState() => _ActivityPageState();
+}
 
+class _ActivityPageState extends State<ActivityPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,7 +64,17 @@ class UserShop extends StatelessWidget {
               ),
             ),
           ),
-          Expanded(child: ShopGrid()),
+          Expanded(
+              child: GridView.builder(
+                  itemCount: 20,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 3),
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: EdgeInsets.all(2.0),
+                      child: Container(color: Colors.deepPurple[100]),
+                    );
+                  })),
         ],
       ),
     );

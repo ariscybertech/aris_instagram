@@ -1,9 +1,11 @@
-import 'package:aris_instagram/aris/util/explore_grid.dart';
 import 'package:flutter/material.dart';
 
-class UserSearch extends StatelessWidget {
-  const UserSearch({Key key}) : super(key: key);
+class SearchPage extends StatefulWidget {
+  @override
+  _SearchPageState createState() => _SearchPageState();
+}
 
+class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +36,16 @@ class UserSearch extends StatelessWidget {
           ),
         ),
       ),
-      body: ExploreGrid(),
+      body: GridView.builder(
+          itemCount: 20,
+          gridDelegate:
+              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+          itemBuilder: (context, index) {
+            return Padding(
+              padding: EdgeInsets.all(2.0),
+              child: Container(color: Colors.deepPurple[100]),
+            );
+          }),
     );
   }
 }
