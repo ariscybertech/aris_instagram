@@ -12,7 +12,7 @@
 ![MobileScreenshot](screenshots/screenshot.gif)
 
 ## Getting Started
-
+ 
 ```dart
 $ git clone https://github.com/ariscybertech/aris_instagram.git
 $ flutter packages get
